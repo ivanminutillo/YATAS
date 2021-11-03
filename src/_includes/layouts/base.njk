@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" x-ref="theme" data-theme="light">
   <head>
     <title>{{ title }}</title>
     <meta charset="UTF-8"/>
@@ -16,6 +16,7 @@
     {% block head %}{% endblock %}
   </head>
   <body class="antialiased">
+   
     {% block content %}
       {{ content | safe }}
     {% endblock %}
